@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ListComponent from "../component/ListComponent";
 import NavComponent from "../component/NavComponent";
 import SearchComponent from "../component/SearchComponent";
 
@@ -8,6 +9,7 @@ class HomePage extends Component {
       <div>
         <NavComponent />
         <SearchComponent />
+        <ListComponent />
       </div>
     );
   }
