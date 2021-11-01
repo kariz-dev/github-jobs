@@ -1,9 +1,9 @@
 import React from "react";
 import { Navbar, NavbarBrand } from "reactstrap";
 
-function NavComponent() {
+const NavComponent = () => {
   return (
-    <div>
+    <div className="mb-4">
       <Navbar color="info" expand="md" dark>
         <div className="container">
           <NavbarBrand href="/">
